@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="student_details" max_length="40" name="x_594709_sru_student_details" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element label="Roll Number" max_length="40" name="roll_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Student Name" max_length="40" name="student_name" type="string"/>
+    </element>
+</database>
